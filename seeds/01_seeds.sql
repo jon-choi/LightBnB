@@ -6,9 +6,9 @@ VALUES
 
 INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code, active)
 VALUES
-(1, 'Ski House', 'snow mountain', 'https://s3.birthmoviesdeath.com/images/made/IASIP_ep1101-sc4_0051d_hires2_1050_591_81_s_c1.jpg', 'https://64.media.tumblr.com/1d066780cb08afaec3c53609169e34cc/tumblr_pkxkirp2mx1taq4zmo4_r1_500.png', 150, 300, 2, 2, 'United States', 'mountain', 'Philadelphia', 'Pennsylvania', '90210', true),
+(1, 'Ski House', 'snow mountain', 'https://resizing.flixster.com/DliCPM3PDiTWbflFSTyKsw2C6Dc=/fit-in/1152x864/v1.bjsxMTczNDQ0O2o7MTg4Njg7MTIwMDsxNTAwOzEwMDA', 'https://64.media.tumblr.com/1d066780cb08afaec3c53609169e34cc/tumblr_pkxkirp2mx1taq4zmo4_r1_500.png', 150, 300, 2, 2, 'United States', 'mountain', 'Philadelphia', 'Pennsylvania', '90210', true),
 (2, 'Dingy Apartment', 'Many, many cats', 'https://external-preview.redd.it/S6hfT4pQr9Sl3dBEDq6hYW_J0xQai-t8uoiP0yQ76Us.jpg?auto=webp&s=54ba621aae82b0934c16dd28546d562563d42706', 'https://i.redd.it/zr4y8drk9mt31.jpg', 50, 1, 0, 0, 'United States', 'Main', 'Philadelphia', 'Pennsylvania', '90210', true),
-(3, 'Dees Place', 'last resort', 'https://static.wikia.nocookie.net/itsalwayssunny/images/3/33/Dee%27s_apartment.jpg/revision/latest/scale-to-width-down/1024?cb=20120428035241', 'https://dryedmangoez.com/images/dryedmangoezsunny/SUNNY704-04.jpg', 100, 1, 1, 1, 'United States', 'Broadway', 'Philadelphia', 'Pennsylvania', '90210', true);
+(3, 'Dees Place', 'last resort', 'https://static.wikia.nocookie.net/itsalwayssunny/images/3/33/Dee%27s_apartment.jpg/revision/latest/scale-to-width-down/1024?cb=20120428035241', 'https://lh3.googleusercontent.com/proxy/W8Zwn0TGcp1G2VJMrR4T-yZfOWa25nIt8szWrRnSAfYvIC4WjbRV8QQ7PvkSDLipjLKEUuUUznsiaMlKyrzLIzLwW1o46-oPYzMsFsj-WW3d_md-pOJj_NjYzotfOUW-iX38Kdf06uMqayGK5PFoQ5TVri2UrdGVx9fXYA', 100, 1, 1, 1, 'United States', 'Broadway', 'Philadelphia', 'Pennsylvania', '90210', true);
 
 INSERT INTO reservations (start_date, end_date, property_id, guest_id)
 VALUES
